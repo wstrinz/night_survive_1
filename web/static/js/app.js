@@ -11,10 +11,11 @@
 //
 // If you no longer want to use a dependency, remember
 // to also remove its path from "config.paths.watched".
-import "deps/phoenix_html/web/static/js/phoenix_html";
+import 'deps/phoenix_html/web/static/js/phoenix_html';
 
 const elmDiv = document.querySelector('#elm-container');
 const elmApp = Elm.App.embed(elmDiv);
+
 // Import local files
 //
 // Local files can be imported directly using relative

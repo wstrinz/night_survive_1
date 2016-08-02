@@ -14,6 +14,8 @@ config :birds_and_trees, BirdsAndTrees.Endpoint,
   pubsub: [name: BirdsAndTrees.PubSub,
            adapter: Phoenix.PubSub.PG2]
 
+config :birds_and_trees, ecto_repos: [BirdsAndTrees.Repo]
+
 # Configures Elixir's Logger
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",
